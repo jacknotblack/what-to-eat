@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`normal suite rendering should match snapshot 1`] = `
+<div
+  className="restaurantList"
+>
+  <button
+    className="locationButton"
+    key="ShangHai"
+    onClick={[Function]}
+  >
+    ShangHai
+  </button>
+  <button
+    className="locationButton"
+    key="Taipei"
+    onClick={[Function]}
+  >
+    Taipei
+  </button>
+  <button
+    className="locationButton"
+    key="LA"
+    onClick={[Function]}
+  >
+    LA
+  </button>
+  <br />
+  <button
+    className="typeButton"
+    key="type1"
+    onClick={[Function]}
+  >
+    type1
+  </button>
+  <button
+    className="typeButton"
+    key="type2"
+    onClick={[Function]}
+  >
+    type2
+  </button>
+  <button
+    className="typeButton"
+    key="all"
+    onClick={[Function]}
+  >
+    all
+  </button>
+  <br />
+  LOCATION: 
+  <span
+    className="selectedLocation"
+  >
+    LA
+  </span>
+   
+  <br />
+  <br />
+  <RestaurantItem
+    key="restaurant A"
+    name="restaurant A"
+    type="type1"
+  />
+  <RestaurantItem
+    key="some restaurant B"
+    name="some restaurant B"
+    type="type2"
+  />
+  <RestaurantItem
+    key="restaurant C"
+    name="restaurant C"
+    type="type1"
+  />
+</div>
+`;
